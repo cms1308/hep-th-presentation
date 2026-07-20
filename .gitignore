@@ -1,0 +1,13 @@
+# latex build artifacts (slides.pdf is committed, aux files are not)
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.vrb
+talks/*
+!talks/.gitkeep
