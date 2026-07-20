@@ -69,11 +69,11 @@ paper citations. If the wiki doesn't cover the requested topic, say so and offer
   talks absorb it.
 
 Every operation ends with one `Log.md` line, a `git commit`, and `git push` (origin = the
-**private** repo, `cms1308/presentation-private`, full contents incl. `talks/`) — sessions
+**private** repo, `cms1308/hep-th-presentation-private`, full contents incl. `talks/`) — sessions
 are disposable; the repo is the only state. Commit format: `feat: <slug> slides+script` /
 `fix: <slug> revision — <gist>` (see `../.claude/rules/git-workflow.md`).
 
-The **public mirror** (`github.com/cms1308/presentation`) is a separate, talks-free
+The **public mirror** (`github.com/cms1308/hep-th-presentation`) is a separate, talks-free
 history — refresh it only deliberately via `scripts/publish-public.sh`. Never push the
 private history public: its commits contain the talks.
 

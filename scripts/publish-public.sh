@@ -6,7 +6,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-PUBLIC_REMOTE="${PUBLIC_REMOTE:-https://github.com/cms1308/presentation.git}"
+PUBLIC_REMOTE="${PUBLIC_REMOTE:-https://github.com/cms1308/hep-th-presentation.git}"
 
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
