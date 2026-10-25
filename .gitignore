@@ -9,5 +9,6 @@
 *.fdb_latexmk
 *.synctex.gz
 *.vrb
+.DS_Store
 talks/*
 !talks/.gitkeep
